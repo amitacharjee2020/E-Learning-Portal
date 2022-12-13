@@ -468,9 +468,6 @@ body, html {
 
 
  
-
-
-	
 <div class="mt-2 p-5 bg-primary text-white rounded" style="color: blue; font-family: cursive; font-size:15px">
 
 <h4 style="color:yellow; font-family: cursive; font-size:18px"> <h3>Profile of the Founder</h3>
@@ -578,6 +575,7 @@ for (i = 0; i < coll.length; i++) {
   <a href="#service" onclick="w3_close()" class="w3-bar-item w3-button">Our Services</a>
   <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+   <a href="#photo" onclick="w3_close()" class="w3-bar-item w3-button">PhotoGallery</a>
 </nav>
 
 <!-- Header with full-height image -->
@@ -618,8 +616,6 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
-
-
 
 
 
@@ -677,12 +673,6 @@ for (i = 0; i < coll.length; i++) {
     </div>
   </div>
 </div>
-
-
-
-
-
-
 
 
 
@@ -868,12 +858,6 @@ for (i = 0; i < coll.length; i++) {
 
 
 
-
-	
-
-
-
-
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
   <h3 class="w3-center">CONTACT</h3>
 <a   href="https://www.legendbdgroup.com"><h3 style="color:blue; font-family:cursive; font-size:18px">Legend English Academy</h3></a>
@@ -898,87 +882,12 @@ for (i = 0; i < coll.length; i++) {
   </div>
 </div>
 
- 
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-
-
-// Toggle between showing and hiding the sidebar when clicking the menu icon
-var mySidebar = document.getElementById("mySidebar");
-
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-  } else {
-    mySidebar.style.display = 'block';
-  }
-}
-
-// Close the sidebar with the close button
-function w3_close() {
-    mySidebar.style.display = "none";
-}
-</script>
 
 
 
+<!-------Photo Gallerry---->
 
-
-
-
-
-
-
-
-<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
-Your browser does not support the HTML canvas tag.</canvas>
-
-<script>
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-ctx.moveTo(0,0);
-ctx.lineTo(200,100);
-ctx.stroke();
-</script>
-
-
-
-
-
-
-
-<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
-Your browser does not support the HTML canvas tag.</canvas>
-
-<script>
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-// Create gradient
-var grd = ctx.createLinearGradient(0,0,200,0);
-grd.addColorStop(0,"red");
-grd.addColorStop(1,"white");
-// Fill with gradient
-ctx.fillStyle = grd;
-ctx.fillRect(10,10,150,80);
-</script>
-
-
-
-
-
-
-
-
-
-
-<div class="mt-2 p-5 bg-primary text-white rounded" class="w3-half" >
-
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="photo">
 <button type="button" class="collapsible" style="font-size:18px">Photo Gallery</button>
 <div class="collapsible" >
 <div class="row">
@@ -1071,28 +980,6 @@ ctx.fillRect(10,10,150,80);
 
 
 
-
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
-
-
-
-
-
 <script>
 function openModal() {
   document.getElementById("myModal").style.display = "block";
@@ -1136,22 +1023,49 @@ function showSlides(n) {
 </div>
 
 
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
 
 
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
 
 
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML canvas tag.</canvas>
 
-
-
-
-
-  
-
-
-
-
-
-
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+// Create gradient
+var grd = ctx.createLinearGradient(0,0,200,0);
+grd.addColorStop(0,"red");
+grd.addColorStop(1,"white");
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10,10,150,80);
+</script>
 
 
 <!----The End----->
@@ -1178,15 +1092,7 @@ function showSlides(n) {
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>	
 	
-	
-
-	
-
 </div>
-
-
-
-
 
 
 </body>
