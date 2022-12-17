@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -36,12 +37,10 @@ $(document).ready(function(){
 
 
   <style>
-
-
 .header{
-background-color:white;
+background-color:black;
 color:white;
-padding:8px;
+padding:4px;
 border:2px solid blue;
 margin:10px;
 
@@ -51,387 +50,20 @@ margin:10px;
 footer {
   text-align: none;
   
-  background-color:white;
+  background-color:black;
   color: black;
-  margin:1px;
+  margin:10px;
   font-family:monospace;
   padding:2px;
-border:4px solid blue;
+border:2px solid blue;
 }
 
 
   div {
-  margin: 30px;
+  margin: 5px;
   border: 1px solid #4CAF50;
 }
  
-
-
-/* Style inputs */
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  background-color: white;
-}
-
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-/* Style the container/contact section */
-.container {
-  border-radius: 2px;
-  background-color: #f2f2f2;
-  padding: 10px;
-}
-
-/* Create two columns that float next to eachother */
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-
-
-  .collapsible{
-  
-  background-color:white;
-  color:blue;
-  cursor:ponter;
-  padding:18px;
-  width:100%;
-  border:none;
-  text-align:center;
-  outline:none;
-  font-size:15px;
-  }
-
-.active, .collapsible:hover{
-
-background-color:Dogerblue;
-}
-
-.content{
-display:none;
-over-flow:hidden;
-padding:2px;
-border:4px solid blue;
-
-}
-
-
-
-
-#demo{
-display:inline-block;
-margin:2px;
-border:2px solid blue;
-outline:2px ;
-padding:8px;
-
-}
-
-
-
-
-}
-
-
-#blink {
-            font-size: 20px;
-            font-weight: bold;
-            color: #2d38be;
-            transition: 0.5s;
-        }
-		
-		
-		
-		
-	body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background: #222;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}	
-		
-		
-  body, html {
-  height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-
-
-
-/* Add styles to the form container */
-.container {
-  position: absolute;
-  right: 0;
-  margin: 20px;
-  max-width: 300px;
-  padding: 16px;
-  background-color: white;
-}
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-/* Set a style for the submit button */
-.btn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-
-
-
-
-body {
-  font-family: Verdana, sans-serif;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.row > .column {
-  padding: 0 8px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: black;
-}
-
-/* Modal Content */
-.modal-content {
-  position: relative;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 0;
-  width: 90%;
-  max-width: 1200px;
-}
-
-/* The Close Button */
-.close {
-  color: white;
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #999;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.mySlides {
-  display: none;
-}
-
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-img {
-  margin-bottom: -4px;
-}
-
-.caption-container {
-  text-align: center;
-  background-color: black;
-  padding: 2px 16px;
-  color: white;
-}
-
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
-img.hover-shadow {
-  transition: 0.3s;
-}
-
-.hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-
-
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-#main {
-  transition: margin-left .5s;
-  padding: 16px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-
-
-  </style>
-  
-  
-  
   <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
@@ -448,19 +80,295 @@ body, html {
   min-height: 100%;
 }
 
-.w3-bar .w3-button {
+.w3-large .w3-button {
   padding: 16px;
 }
 </style>
+
+<!-----Desktop----->
+
+
+
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+
+
+<!-----Desktop----->
+
+
   
+ <!----Laptop----->
+
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+
+
+
+ <!----Laptop----->
+
+
+
+<!-----Search------>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
+
+<!-----Search------>
+
+
+<!------Login----->
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color:blue;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
   
-  
-  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+
+<!-----Login------>
+
+
+
 </head>
+
 <body>
 
-
- 
 <div class="mt-2 p-5 bg-primary text-white rounded" style="color: blue; font-family: cursive; font-size:15px">
 
 <h4 style="color:yellow; font-family: cursive; font-size:18px"> <h3>Profile of the Founder</h3>
@@ -494,21 +402,20 @@ for (i = 0; i < coll.length; i++) {
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-card" id="myNavbar">
+  <div class="w3-bar w3-light-grey w3-card" id="myNavbar">
     <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
     <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hide-small">
+    <div class="w3-center w3-hide-small">
 	
 	 <a href="#home" class="w3-bar-item w3-button">Home</a>
       <a href="#about" class="w3-bar-item w3-button">ABOUT US</a>
-	   <a href="#amit" class="w3-bar-item w3-button">Our Resources</a>
+	
+      <a href="#desktop" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Desktop</a>
+	   <a href="#laptop" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Laptop</a>
       
-      <a href="#service" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Our Services</a>
-      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
-	   
-	    <a href="#login" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Login</a>
-		<a href="#photo" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> PhotoGallery</a>
+	  <a href="#search" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Search</a>
+	<a href="#id01" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Login</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -524,12 +431,14 @@ for (i = 0; i < coll.length; i++) {
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
   <a href="#amit" onclick="w3_close()" class="w3-bar-item w3-button"></a>
   
-  <a href="#service" onclick="w3_close()" class="w3-bar-item w3-button">Our Services</a>
-  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="#desktop" onclick="w3_close()" class="w3-bar-item w3-button">Desktop</a>
+  <a href="#laptop" onclick="w3_close()" class="w3-bar-item w3-button">Laptop</a>
+ 
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
    
-   <a href="#login" onclick="w3_close()" class="w3-bar-item w3-button">Login</a>
-   <a href="#photo" onclick="w3_close()" class="w3-bar-item w3-button">PhotoGallery</a>
+  <a href="#search" onclick="w3_close()" class="w3-bar-item w3-button">Search</a>
+   
+   <a href="#id01" onclick="w3_close()" class="w3-bar-item w3-button">Login</a>
 </nav>
 
 <!-- Header with full-height image -->
@@ -540,7 +449,7 @@ for (i = 0; i < coll.length; i++) {
     <span class="w3-large">Stop wasting valuable time with projects that just isn't you.</span>
 	
 
-    <p><a href="#home" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">LEGEND ENGLISH ACADEMY is an ideal institute for learners interested in developing their life skills in peer-to-peer communication.<br> We have a mission to develop both soft & life skills through effective & long term strategy of modern & sophisticated learning through one to one interactive communication.<br>We live in a competitive world. To gain sustainable competitive edge in the global competitive market we have focused on our core competences based on cloud based value delivery & value proposition.<br> Technology is the building block to business success. Fintech, IT governance & security, people skill, business analytics & data science are the key to sustainable development.<br> Legend Group believes in leveraging all aspects of customization to the needs of the valued clients. Customer satisfaction is our first priority.</a></p>
+    <p><a href="#home" class="w3-button w3-black w3-padding-large w3-half w3-margin-top w3-opacity w3-hover-opacity-off">LEGEND ENGLISH ACADEMY is an ideal institute for learners interested in developing their life skills in peer-to-peer communication.<br> We have a mission to develop both soft & life skills through effective & long term strategy of modern & sophisticated learning through one to one interactive communication.<br>We live in a competitive world. To gain sustainable competitive edge in the global competitive market we have focused on our core competences based on cloud based value delivery & value proposition.<br> Technology is the building block to business success. Fintech, IT governance & security, people skill, business analytics & data science are the key to sustainable development.<br> Legend Group believes in leveraging all aspects of customization to the needs of the valued clients. Customer satisfaction is our first priority.</a></p>
 
 	 
   </div> 
@@ -556,7 +465,7 @@ for (i = 0; i < coll.length; i++) {
 
 <button type="button" class="collapsible" style="font-size:18px; color:blue"  >Message from the CEO</button>
 <div class="collapsible"   >
-<p style="font-size:18px; color:blue; font-family: cursive">Ours is an age of globalization & information technology. There is no denying the fact that the world is getting smaller & we are coming closer to each other. People across the globe are living in a global village. Bangladesh, being a small South-Asian country, is also a stakeholder of the global change & progress. Ours is an age of globalization & information technology. There is no denying the fact that the world is getting smaller & we are coming closer to each other. People across the globe are living in a global village. Bangladesh, being a small South Asian country, is also a stakeholder of the global change & progress.</p>
+<p style="font-size:16px; color:black; font-family: cursive">Ours is an age of globalization & information technology. There is no denying the fact that the world is getting smaller & we are coming closer to each other. People across the globe are living in a global village. Bangladesh, being a small South-Asian country, is also a stakeholder of the global change & progress. Ours is an age of globalization & information technology. There is no denying the fact that the world is getting smaller & we are coming closer to each other. People across the globe are living in a global village. Bangladesh, being a small South Asian country, is also a stakeholder of the global change & progress.</p>
 </div>
 <script>
 var coll = document.getElementsByClassName("collapsible");
@@ -579,187 +488,124 @@ for (i = 0; i < coll.length; i++) {
 
 
   <h3 class="w3-center">ABOUT THE COMPANY</h3>
-  <p class="w3-center w3-large">Key features of our company</p>
-  <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
+  <p class="w3-center w3-row">Key features of our company</p>
+  <div class="w3-row-padding w3-center" style="margin-top:20px">
+    <div class="w3-large">
       
       <p class="w3-large">What we are</p>
 	  <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-      <p style="font-size:18px;color:blue; font-family: cursive">We live in a competitive world. To gain sustainable competitive edge in the global competitive market we have focused on our core competences based on cloud based value delivery & value proposition. Technology is the building block to business success. Fintech, IT governance & security, people skill, business analytics & data science are the key to sustainable development.</p>
+      <p style="font-size:16px;color:white; font-family: cursive">We live in a competitive world. To gain sustainable competitive edge in the global competitive market we have focused on our core competences based on cloud based value delivery & value proposition. Technology is the building block to business success. Fintech, IT governance & security, people skill, business analytics & data science are the key to sustainable development.</p>
     </div>
-    <div class="w3-quarter">
-	 <p class="w3-large">Message from the CEO</p>
-	 <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-    <p style="font-size:18px; color:blue; font-family: cursive">Ours is an age of globalization & information technology. There is no denying the fact that the world is getting smaller & we are coming closer to each other. People across the globe are living in a global village. Bangladesh, being a small South-Asian country, is also a stakeholder of the global change & progress. Ours is an age of globalization & information technology. There is no denying the fact that the world is getting smaller & we are coming closer to each other. People across the globe are living in a global village. Bangladesh, being a small South Asian country, is also a stakeholder of the global change & progress.</p>
-      
-    </div>
-  
-    <div class="w3-quarter">
+   
+    <div class="w3-large">
       <p class="w3-large">Profile of the Founder</p>
 	  <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-      <p style="color: blue; font-family: cursive; font-size:16px">Mr. Amit Kumar Acharjee, MBA, LLB , ACCA ( Part-qualified) ,   CEO & Software Developer,  LEGEND BD GROUP has been associated with multi-faceted socio-economic activities & is currently dedicated to data science,  data analytics, software development & artificial intelligence with machine learning to equip our future generation with future skills-set through providing state-of-the art technological service & training. LEGEND BD GROUP  is a promising business group consisting of six sister concerns with BUSINESS SOFTWARE & TECHNOLOGY. COMPUTER LODGE & LEGEND IT TRAINING being the most more focused software & hardware talent hubs with most innovative & multi-dimensional approaches to change & commitment. Mr. Acharjee has been relentlessly in his pursuit of ‘do something innovative’ motto & sincerely dedicated to transform your business.   Recently he has completed his training on different IT & Programming languages such as Artificial Intelligence with Machine Learning, Applied Data Science, PHP Zend, Java, etc as well as pursuing BSc in Computer Science</p>
+      <p style="color: white; font-family: cursive; font-size:16px">Mr. Amit Kumar Acharjee, MBA, LLB , CEO & Software Developer,  LEGEND BD GROUP has been associated with multi-faceted socio-economic activities & is currently dedicated to data science,  data analytics, software development & artificial intelligence with machine learning to equip our future generation with future skills-set through providing state-of-the art technological service & training. LEGEND BD GROUP  is a promising business group consisting of six sister concerns with BUSINESS SOFTWARE & TECHNOLOGY. COMPUTER LODGE & LEGEND IT TRAINING being the most more focused software & hardware talent hubs with most innovative & multi-dimensional approaches to change & commitment. Mr. Acharjee has been relentlessly in his pursuit of ‘do something innovative’ motto & sincerely dedicated to transform your business.   Recently he has completed his training on different IT & Programming languages such as Artificial Intelligence with Machine Learning, Applied Data Science, PHP Zend, Java, etc as well as pursuing BSc in Computer Science</p>
     </div>
   </div>
 </div>
 
 
 
-<!-- Our Resources Section -->
-<div class="w3-container" style="padding:128px 16px; color: blue;" id="amit">
-  <h3 class="w3-center">ABOUT THE COMPANY</h3>
-  <p class="w3-center w3-large">Key features of our company</p>
-  <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-      <p class="w3-large">Legned English Academy YouTube Channel</p>
-      <p><a href="file:///C:/Users/User/Desktop/Legend%20E-learning%20Portal/SSC%20English%202nd%20Paper.html">Get started</a></p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Legend English Academy Facebook Page</p>
-      <p><a href="https://www.facebook.com/amitacharjeesoftwaredeveloper">Get started</a</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Design</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Support</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-  </div>
+<!-- Computer Section -->
+<div class="w3-container" style="padding:128px 16px; color: blue;" id="desktop">
+ 
+
+
+
+
+<h2>Desktop</h2>
+
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 
 
 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-<!-- Promo Section - "We know design" -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px">
-  <div class="w3-row-padding">
-    <div class="w3-col m6">
-      <h3>We know design.</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
-      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
-    </div>
-    <div class="w3-col m6">
-      <img class="w3-image w3-round-large" src="/w3images/phone_buildings.jpg" alt="Buildings" width="700" height="394">
-    </div>
-  </div>
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+<!-- Laptop Section -->
+<div class="w3-container" style="padding:128px 16px; color: blue;" id="laptop">
+
+
+
+
+<h2>Laptop</h2>
+
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 
 
 
-<!-- Our Services Section -->
-<div class="w3-container" style="padding:128px 16px; color: blue;" id="service">
-  <h3 class="w3-center;">Our Services</h3>
-  <p class="w3-center w3-large">English 1st Paper & 2nd Paper for both School & College Learners</p>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-col l3 m6">
-	    <p> SSC ENGLISH 1ST PAPER </p>
-     
-	  <p> <a href="file:///C:/Users/User/Desktop/Legend%20E-learning%20Portal/SSC%20English1st%20Paper.html">Get started</a></p>
-	  
-	  <p><a href="#pricing">Get started</a></p>
-	  
-    </div>
-    <div class="w3-col l3 m6">
-      <p>SSC ENGLISH 2ND PAPER</p>
-  <p><a href="file:///C:/Users/User/Desktop/Legend%20E-learning%20Portal/SSC%20English%202nd%20Paper.html">Get started</a></p>
-  <p><a href="#pricing">Get started</a></p>
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/w3images/tech_drone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
-    </div>
-    <div class="w3-col l3 m6">
-       <p>HSC English 1st Paper</p>
-  <p><a href="file:///C:/Users/User/Desktop/Legend%20E-learning%20Portal/HSC%20English%201st%20Paper.html">Get started</a></p>
-  <p><a href="#pricing">Get started</a></p>
-    
-  </div>
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
 
-  <div class="w3-row-padding w3-section">
-    <div class="w3-col l3 m6">
-     <p>HSC English 2nd Paper</p>
-  <p><a href="file:///C:/Users/User/Desktop/Legend%20E-learning%20Portal/HSC%20English%202nd%20Paper.html">Get started</a></p>
-  
-   <p><a href="#pricing">Get started</a></p>
- </div>
-   
-  </div>
-</div>
 
-<!-- Pricing Section -->
-<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
-  <h3>PRICING</h3>
-  <p class="w3-large">Choose a pricing plan that fits your needs.</p>
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">SSC English 1st Paper</li>
-       
-          <h2 class="w3-wide">$ 10</h2>
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-         
-		  <p><a href="#contact">Get started</a></p>
-        </li>
-      </ul>
-    </div>
-    <div class="w3-third">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-red w3-xlarge w3-padding-48">SSC English 2nd Paper</li>
-        
-          <h2 class="w3-wide">$ 25</h2>
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          
-		  <p><a href="#contact">Get started</a></p>
-        </li>
-      </ul>
-    </div>
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">HSC English 1st Paper</li>
-      
-          <h2 class="w3-wide">$ 50</h2>
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-        
-		  <p><a href="#contact">Get started</a></p>
-        </li>
-      </ul>
-    </div>
-	
 
-	<div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">HSC English 2nd Paper</li>
-       
-          <h2 class="w3-wide">$ 50</h2>
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-         <p><a href="#contact">Get started</a></p>
-        </li>
-      </ul>
-    </div>
-	
-  </div>
-</div>
 
-<!-- Contact Section -->
 
+
+
+<!----Contact----->
 
 
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
   <h3 class="w3-center">CONTACT</h3>
-<a   href="https://www.legendbdgroup.com"><h3 style="color:blue; font-family:cursive; font-size:18px">Legend English Academy</h3></a>
+<a   href="https://www.legendbdgroup.com"><h3 style="color:white; font-family:cursive; font-size:18px">Legend English Academy</h3></a>
   <div style="margin-top:48px">
     <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Ami Kumar Acharjee, MBA(DU),LLB,  BSc Computer Science ( Student )( University of London )<br> CEO & Software Developer <br> Business Software & Technology <br> Mirpur,   Dhaka <br> Former Teacher, Chandpur</p>
     <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Mob: 01712878767</p>
@@ -782,210 +628,78 @@ for (i = 0; i < coll.length; i++) {
 </div>
 
 
-<!------Login----->
 
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="login">
 
-  <div class="bg-img" style="font-size:18px" >
-  <form action="/action_page.php" class="container">
-    <h1>Login</h1>
+<!-----Login------>
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+<h2> Login here</h2>
 
-    <button type="submit" class="btn">Login</button>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="w3-container">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="mumtahenapic/mumta.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
   </form>
 </div>
-
 </div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+<!-----Login------>
 
 
-<!-------Photo Gallerry---->
 
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="photo">
-<button type="button" class="collapsible" style="font-size:18px">Photo Gallery</button>
-<div class="collapsible" >
-<div class="row">
-  <div class="column">
-    <img src="mumtahenapic/mumta.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="mumtahenapic/mumta1.jpg" style="width: 100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="mumtahenapic/mumta2.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="mumtahenapic/mumta3.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-  </div>
-   <div class="column">
-    <img src="mumtahenapic/mumta4.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
-	
-  </div>
-   <div class="column">
-    
-	 <img src="mumtahenapic/mumta5.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
-  </div>
-</div>
+<!----Search----->
+<div class="w3-large" Style=" color= "BlueViolet;" style="padding:100px 150px" id="search">
 
-<div id="photo" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-
-    <div class="mySlides">
-      <div class="numbertext">1 / 6</div>
-      <img src="mumtahenapic/pic.jpg" style="width:100%">
-	  <p style="font-size:18px" >aaaaaaaaaaaaaa</p>
-	 
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">2 / 6</div>
-      <img src="mumtahenapic/pic1.jpg" style="width:100%">
-	   <p style="font-size:18px">aaaaaaaaaaaaaa</p>
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">3 / 6</div>
-      <img src="mumtahenapic/pic2.jpg" style="width:100%">
-	   <p style="font-size:18px">aaaaaaaaaaaaaa</p>
-    </div>
-    
-    <div class="mySlides">
-      <div class="numbertext">4 / 6</div>
-      <img src="mumtahenapic/pic3.jpg" style="width:100%">
-	   <p style="font-size:18px">aaaaaaaaaaaaaa</p>
-    </div>
-	<div class="mySlides">
-      <div class="numbertext">4 / 6</div>
-      <img src="mumtahenapic/pic4.jpg" style="width:100%">
-	   <p style="font-size:18px">aaaaaaaaaaaaaa</p>
-    </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-
-
-    <div class="column">
-      <img class="demo cursor" src="mumtahenapic/mumta.jpg" style="width:100%" onclick="currentSlide(1)" >
-	   
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="mumtahenapic/mumta1.jpg" style="width:100%" onclick="currentSlide(2)" >
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="mumtahenapic/mumta2.jpg" style="width:100%" onclick="currentSlide(3)" >
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="mumtahenapic/mumta3.jpg" style="width:100%" onclick="currentSlide(4)" >
-    </div>
-	<div class="column">
-      <img class="demo cursor" src="mumtahenapic/mumta4.jpg" style="width:100%" onclick="currentSlide(5)" >
-    </div
-	<div class="column">
-      <img class="demo cursor" src="mumtahenapic/mumta5.jpg" style="width:100%" onclick="currentSlide(6)" >
-    </div
-  </div>
+<div class="topnav">
   
-  
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
 </div>
-</div>
-
-
-
-<script>
-function openModal() {
-  document.getElementById("myModal").style.display = "block";
-}
-
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
-}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
-    
 
 </div>
 
 
- 
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
+<!----Search----->
 
-
-// Toggle between showing and hiding the sidebar when clicking the menu icon
-var mySidebar = document.getElementById("mySidebar");
-
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-  } else {
-    mySidebar.style.display = 'block';
-  }
-}
-
-// Close the sidebar with the close button
-function w3_close() {
-    mySidebar.style.display = "none";
-}
-</script>
-
-
-<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
-Your browser does not support the HTML canvas tag.</canvas>
-
-<script>
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-// Create gradient
-var grd = ctx.createLinearGradient(0,0,200,0);
-grd.addColorStop(0,"red");
-grd.addColorStop(1,"white");
-// Fill with gradient
-ctx.fillStyle = grd;
-ctx.fillRect(10,10,150,80);
-</script>
 
 
 <!----The End----->
@@ -1020,9 +734,3 @@ ctx.fillRect(10,10,150,80);
 
 
 <!---The End----->
-
-
-
-
-
-
