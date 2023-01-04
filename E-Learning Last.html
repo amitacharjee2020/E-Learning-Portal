@@ -146,7 +146,7 @@ body, html {
 }
 
 .w3-bar .w3-button {
-  padding: 10px;
+  padding: 5px;
 }
 </style>
   
@@ -277,6 +277,7 @@ body {
 
 
 <div class="w3-third w3-display-box-sizing  w3-white w3-padding-small" >
+<a href="https://vimeo.com/manage/videos/658324780"></a>
 
 <div class="slideshow-container w3-card-2">
 
@@ -353,9 +354,9 @@ function showSlides(n) {
 	
 	 <a href="#home" class="w3-bar-item w3-button">HOME</a>
       <a href="#about" class="w3-bar-item w3-button">ABOUT US</a>
-	   <a href="#amit" class="w3-bar-item w3-button">OUR RESOURCES</a>
+	   <a href="#resource" class="w3-bar-item w3-button"> FREE RESOURCES</a>
       
-      <a href="#service" class="w3-bar-item w3-button"><i class="fa fa-th"></i> OUR SERVICES</a>
+      <a href="#service" class="w3-bar-item w3-button"><i class="fa fa-th"></i>  PAID SERVICES</a>
       <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-bangladeshi-taka"></i> TUITION</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
 	<a href="#id01" class="w3-bar-item w3-button"><i class="fa fa-login"></i> LOGIN</a>
@@ -375,9 +376,9 @@ function showSlides(n) {
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
-  <a href="#amit" onclick="w3_close()" class="w3-bar-item w3-button"></a>
+  <a href="#resource" onclick="w3_close()" class="w3-bar-item w3-button"> Free Resources</a>
   
-  <a href="#service" onclick="w3_close()" class="w3-bar-item w3-button">Our Services</a>
+  <a href="#service" onclick="w3_close()" class="w3-bar-item w3-button"> Paid Services</a>
   <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">Tuition</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 
@@ -442,7 +443,7 @@ for (i = 0; i < coll.length; i++) {
 
 
 <!-- Our Resources Section -->
-<div class="w3-container w3-teal" style="padding:90px 80px; color:white; margin:60px; border: 50px;" id="amit">
+<div class="w3-container w3-teal" style="padding:90px 80px; color:white; margin:60px; border: 50px;" id="resource">
 
  
    <div class="w3-container">
@@ -507,48 +508,91 @@ for (i = 0; i < coll.length; i++) {
 <div class="w3-container w3-white"  style=" color:white; padding:160px 10px; border: 4px;" id="service">
 <h1 style="font-family:cursive;"> Services</h1>
 
-  <div class="jumbotron" style="background-color:black; color:white; ">
-  <div class="w3-row-padding" style="margin-top:60px; ">
-    <div class="w3-container w3-teal">
-	    <p> SSC ENGLISH 1ST PAPER </p>
-     
-	  <p><a href="#pricing">Get started</a></p>
-	  
-    </div>
-    <div class="w3-container w3-teal">
-      <p>SSC ENGLISH 2ND PAPER</p>
-  
-  <p><a href="#pricing">Get started</a></p>
-    </div>
-    <div class="w3-container w3-teal">
-         <p style="color:white;">HSC English 1st Paper</p>
- 
-  <p><a href="#pricing">Get started</a></p>
-    </div>
-    <div class="w3-container w3-teal">
-       <p>HSC English 2nd Paper</p>
- 
-  <p><a href="#pricing">Get started</a></p>
-    
-  </div>
 
-  <div class="w3-row-padding w3-section">
-    <div class="w3-container w3-teal">
-     <p>IELTS</p>
-  
-  
-   <p><a href="#pricing">Get started</a></p>
- </div>
-   <div class="w3-row-padding w3-section">
-    <div class="w3-container w3-teal">
-     <p>Spoken English</p>
-  
-  
-   <p><a href="#pricing">Get started</a></p>
- </div>
-  </div>
+
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#id01">SSC English 1st paper</a>
+  <a href="#id01">Services</a>
+  <a href="#id01">Clients</a>
+  <a href="#id01">Contact</a>
 </div>
+
+<div id="main">
+  
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Get started</span>
 </div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+
+
+
+
+
+
+
 
 <!-- Tuition Section -->
 <div class="w3-container w3-center w3-white " style="padding:120px 20px"  id="pricing">
@@ -666,8 +710,8 @@ for (i = 0; i < coll.length; i++) {
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="mobile" required name="mobile"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="subject" required name="subject"></p>
       <p>
         <button class="w3-button w3-black" type="submit">
           <i class="fa fa-send" style="font-size:24px" ></i> SEND MESSAGE
