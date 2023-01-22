@@ -149,20 +149,10 @@ body, html {
   padding: 10px 2px;
 }
 
-
-
-
 p {
   text-align: center;
   color: black;
 }
-
-
-
-
-
-
-
 
 </style>
   
@@ -233,153 +223,29 @@ div {
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-container w3-grayscale-min" id="home">
  
-
-  <div class=" w3-container  w3-display-top w3-text-black "  style="padding:120px 40px; background-color:white;font-family: cursive;" >
-    <span class="w3-jumbo "  >LEGEND ENGLISH ACADEMY </span><br>
-    <p class="dashed">Let's learn( Esho Shikhi)  E-learning platform </p>
-	
-<div class=container>	
-<p style="color:white; font-size:14px; background-color:#4CAF50; font-family:cursive;">LEGEND ENGLISH ACADEMY is an ideal institute for learners interested in developing their life skills in peer-to-peer communication. We have a mission to develop both soft & life skills through effective & long term strategy of modern & sophisticated learning through one to one interactive communication.We live in a competitive world. To gain sustainable competitive edge in the global competitive market we have focused on our core competences based on cloud based value delivery & value proposition.Technology is the building block to business success. Fintech, IT governance & security, people skill, business analytics & data science are the key to sustainable development. Legend Group believes in leveraging all aspects of customization to the needs of the valued clients. Customer satisfaction is our first priority.</a></p>
- 
-</div>
-<!-------Photo Gallerry---->
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-   background-color:white;
-}
-
-.flip-card {
-  background-color: transparent;
-  width: 100px;
-  height: 100px;
-  perspective: 100px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: #2980b9;
-  color: white;
-  transform: rotateY(180deg);
-}
-
-
-
-
-
-.w3-container{
-
-background-color: white;
-font-size: 18px;
-border: 2px solid black:
-hieght: 600px;
-
-
-
-</style>
-
-
-<div class="w3-third w3-display-box-sizing  w3-white w3-padding-small" >
-<a href="https://vimeo.com/manage/videos/658324780"></a>
-
-<div class="slideshow-container w3-card-2">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="mumtahenapic/mumta.jpg" class="w3-circle"  style="width:100%">
-  <div class="text">Caption Text</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="mumtahenapic/mumta1.jpg" class="w3-circle" style="width:100%">
-  <div class="text">Caption Two</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="mumtahenapic/mumta2.jpg"class="w3-circle"  style="width:100%">
-  <div class="text">Caption Three</div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
  
 
+  <div class=" w3-container w3-blue w3-display-top w3-text-black "  style="padding:100px 2px; background-color:white;font-family: cursive;" >
+  
+<img src="mumtahenapic/legendenglish.jpg"  style="height:400px; width:1200px;">
+<div class="w3-container w3-white">
+  <h4> We offer: </h4>
+ <a  href="#service"> <p>SSC English 1st paper</p></a>
+ <a  href="#service"> <p>SSC English 2nd paper</p></a>
+ <a  href="#service"> <p>HSC English 1st paper</p></a>
+ <a  href="#service"> <p>HSC English 2nd paper</p></a>
+ <a  href="#service"> <p>IELTS</p></a>
+ <a  href="#service"> <p>Spoken English</p></a>
+ </div>
 </header>
 
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top" style="font-family:cursive; color:white; background-color: white; ">
 
+
   <div class="w3-bar w3-light-grey w3-medium" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
+    <a href="#home" class="w3-bar-item w3-button w3-wide">Legend English Academy <br> Let's learn</a>
     <!-- Right-sided navbar links -->
     <div class="w3-center w3-hide-small">
 	
@@ -389,7 +255,7 @@ function showSlides(n) {
 	  <a href="#mgt" class="w3-bar-item w3-button"><i class="fa fa-image"></i> Resource persons</a>
 	  
 	   <a href="#resource" class="w3-bar-item w3-button"> Resources</a>
-      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-bangladeshi-taka"></i> Choose subject</a>
+     
       
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contact</a>
 	  
@@ -417,7 +283,7 @@ function showSlides(n) {
   <a href="#resource" onclick="w3_close()" class="w3-bar-item w3-button"> Free Resources</a>
   
   <a href="#service" onclick="w3_close()" class="w3-bar-item w3-button"> Paid Services</a>
-  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">Join us</a>
+ 
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
  <a href="#photo" onclick="w3_close()" class="w3-bar-item w3-button">PhotoGallery</a>
   
@@ -429,6 +295,8 @@ function showSlides(n) {
 
 <!-- Management Section -->
 <div class="w3-large" style="padding:100px; background-color:white; border: 2px;" id="about" >
+
+
 
 <div  class="mt-2 p-5 bg-primary; background-color:white;" >
 
@@ -662,13 +530,13 @@ color:black;
 
 <button type="button" class="collapsible">SSC English 1st paper</button>
 <div class="content">
-
+<img src="mumtahenapic/amit.jpg"  style="height:100px; width:1200px;">
 <p> Tailored class </p>
-<a href="#id01">  Get started</a>
+<a href="#contact">  Get started</a>
 <p> Instructor-led class</p>
-<a href="#id01">  Get started</a>
+<a href="#contact">  Get started</a>
 <p> Blended</p>
-<a href="#id01">  Get started</a>
+<a href="#contact">  Get started</a>
   
 </div>
 
@@ -679,11 +547,11 @@ color:black;
 <div class="content">
 
 <p> Tailored class </p>
-<a href="#id01">  Get started</a>
+<a href="#contact">  Get started</a>
 <p> Instructor-led class</p>
-<a href="#id01">  Get started</a>
+<a href="#contact">  Get started</a>
 <p> Blended</p>
-<a href="#id01">  Get started</a>
+<a href="#contact">  Get started</a>
   
 </div>
 
@@ -693,11 +561,11 @@ color:black;
 <div class="content">
 
 <p> Tailored class </p>
-<a href="#id01">  Get started</a>
+<a href="#contact">  Get started</a>
 <p> Instructor-led class</p>
-<a href="#id01">  Get started</a>
+<a href="#contact">  Get started</a>
 <p> Blended</p>
-<a href="#id01">  Get started</a>
+<a href="#contact">  Get started</a>
   
 </div>
 
@@ -707,11 +575,11 @@ color:black;
 <div class="content">
 
 <p> Tailored class </p>
-
+<a href="#contact">  Get started</a>
 <p> Instructor-led class</p>
-<a href="#id01">  Get started</a>
+<a href="#contact">  Get started</a>
 <p> Blended</p>
-<a href="#id01">  Get started</a>
+<a href="#contact">  Get started</a>
   
 </div>
 
@@ -721,11 +589,11 @@ color:black;
 <div class="content">
 
 <p> Tailored class </p>
-
+<a href="#contact">  Get started</a>
 <p> Instructor-led class</p>
-<a href="#id01">  Get started</a>
+<a href="#contact">  Get started</a>
 <p> Blended</p>
-<a href="#id01">  Get started</a>
+<a href="#contact">  Get started</a>
   
 </div>
 
@@ -737,11 +605,11 @@ color:black;
 <div class="content">
 
 <p> Tailored class </p>
-
+<a href="#contact">  Get started</a>
 <p> Instructor-led class</p>
-<a href="#id01">  Get started</a>
+<a href="#contact">  Get started</a>
 <p> Blended</p>
-<a href="#id01">  Get started</a>
+<a href="#contact">  Get started</a>
   
 </div>
 
@@ -769,139 +637,6 @@ for (i = 0; i < coll.length; i++) {
 
 
 
-<!-- Choose your subject -->
-
-
-
-
-
-<style>
-
-.w3-container{
-
-background-color:#4CAF50 ;
-font-size: 14px;
-border: 4px solid black:
-hieght: 400px;
-
-</style>
-
-
-<div class="w3-large w3-center w3-white " style="padding:50px"  id="pricing">
-<div class="container">
-<h2 style="font-family:cursive;"> Subject choice</h2>
-</div>
-
- <div class="w3-container" style="background-color:white; color:black; ">
-  <p class="w3-large">Choose a package that fits your needs.</p>
-  <div class="w3-row-padding" style="margin-top:5px">
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-	  
-	  
-        <li class="w3-black w3-large w3-padding-22">SSC ENGLISH 1ST PAPER</li>
-       
-   
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-white w3-padding-22">
-         <h3> Mode of study</h3>
-         <p>Tailored <br> Instructor-led<br> Blended</p>
-		  <p><a href="#contact">Get started</a></p>
-        </li>
-      </ul>
-    </div>
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-large w3-padding-22">SSC ENGLISH 2ND PAPER</li>
-        
-        
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-white w3-padding-20">
-           <h3> Mode of study</h3>
-         <p>Tailored <br> Instructor-led<br> Blended</p>
-		  
-		  <p><a href="#contact">Get started</a></p>
-        </li>
-      </ul>
-    </div>
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-large w3-padding-22">HSC ENGLISH 1ST PAPER</li>
-      
-         
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-white w3-padding-22">
-         <h3> Mode of study</h3>
-         <p>Tailored <br> Instructor-led<br> Blended</p>
-		 
-		  <p><a href="#contact">Get started</a></p>
-		 
-        </li>
-      </ul>
-    </div>
-	
-
-	<div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-large w3-padding-22">HSC ENGLISH 2ND PAPER</li>
-       
-          
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-white w3-padding-20">
-		<h3> Mode of study</h3>
-         <p>Tailored <br> Instructor-led<br> Blended</p>
-         <p><a href="#contact">Get started</a></p>
-        </li>
-      </ul>
-    </div>
-	
-	
-	
-	<div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-large w3-padding-22">IELTS</li>
-       
-          
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-white w3-padding-20">
-		
-		<h3> Mode of study</h3>
-         <p>Tailored <br> Instructor-led<br> Blended</p>
-         <p><a href="#contact">Get started</a></p>
-        </li>
-      </ul>
-    </div>
-	
-	
-	
-	
-	<div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-large w3-padding-22">SPOKEN ENGLISH</li>
-       
-          
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-white w3-padding-20">
-		
-		<h3> Mode of study</h3>
-         <p>Tailored <br> Instructor-led<br> Blended</p>
-		 
-         <p><a href="#contact">Get started</a></p>
-        </li>
-      </ul>
-    </div>
-	
-	</div>
-	
-  </div>
-</div>
-
 
 
 
@@ -923,7 +658,7 @@ hieght: 400px;
 
 <div class="w3-container w3-white" style="padding:100px 30px" id="contact">
 
-  
+ 
  
 
   <div style="margin-top:10px">
@@ -947,11 +682,6 @@ hieght: 400px;
   </div>
 
 </div>
-
-
-
-
-
 
 
 
@@ -1191,6 +921,7 @@ body {
 </header>
 
 <div class="w3-container" style="padding:80px  60px; background-color:white; border: 2px;" id="photo" >
+
 <!-- Header -->
 <div class="header" id="myHeader">
   <h1 style="font-family:cursive;">Photo-gallery</h1>
