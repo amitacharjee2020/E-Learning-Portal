@@ -242,10 +242,6 @@ div {
 
 
 
-
-
-
-
 <div class="w3-half">
 <h3 style="font-family:cursive;"> We offer:</h3>
 
@@ -254,7 +250,7 @@ div {
 <style>
 .collapsible {
   background-color: #4CAF50;
-  color: white;
+  color: black;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -444,23 +440,22 @@ for (i = 0; i < coll.length; i++) {
 
 
 
-<div class="w3-large" class="container" style="padding:2px; border:4px solid teal">
-  
-  <div class="mt-2 p-5 bg-success text-white rounded">
-    <h3> Legend English Academy</h3> 
-    <p style="font-family:cursive; color:white; font-size:16px">LEGEND ENGLISH ACADEMY is an ideal institute for learners interested in developing their life skills in peer-to-peer communication. We have a mission to develop both soft & life skills through effective & long term strategy of modern & sophisticated learning through one to one interactive communication.<br>We live in a competitive world. To gain sustainable competitive edge in the global competitive market we have focused on our core competences based on cloud based value delivery & value proposition. Technology is the building block to business success. Fintech, IT governance & security, people skill, business analytics & data science are the key to sustainable development. Legend Group believes in leveraging all aspects of customization to the needs of the valued clients. Customer satisfaction is our first priority. </p> 
-	<hr style="width:100%"  style="height:450px"  >
-  </div>
-
-
-
-
-
-
 <!-- Management Section -->
 <div class="w3-large" style="padding:100px; background-color:white; border: 2px;" id="about" >
 
-<div  class="mt-2 p-5 bg-primary; background-color:white;" >
+
+
+
+
+ <div class="w3-card w3-white"style="padding:2px; color:black;" >
+    <h3> Legend English Academy</h3> 
+    <p style="font-family:cursive; color:black; font-size:16px">LEGEND ENGLISH ACADEMY is an ideal institute for learners interested in developing their life skills in peer-to-peer communication. We have a mission to develop both soft & life skills through effective & long term strategy of modern & sophisticated learning through one to one interactive communication.<br>We live in a competitive world. To gain sustainable competitive edge in the global competitive market we have focused on our core competences based on cloud based value delivery & value proposition. Technology is the building block to business success. Fintech, IT governance & security, people skill, business analytics & data science are the key to sustainable development. Legend Group believes in leveraging all aspects of customization to the needs of the valued clients. Customer satisfaction is our first priority. </p> 
+	<hr style="width:100%"  style="height:450px"  >
+  </div>
+  
+  
+
+ <div class="w3-card w3-white"style="padding:2px; color:black;" >
 
 <button type="button" class="collapsible" style="font-size:16px; color:white;"  >Message from the CEO</button>
 <div class="W3-large"   >
@@ -804,24 +799,24 @@ for (var i = 0; i < btns.length; i++) {
 
 .w3-container{
 
-background-color:#4CAF50 ;
+background-color:white; ;
 font-size: 14px;
-border: 4px solid black:
-hieght: 400px;
+border: 2px solid black:
+hieght: 100px;
 
 </style>
 
 
-<div class="w3-large w3-center w3-white " style="padding:50px"  id="pricing">
-<div class="container">
+<div class="w3-large  " style="padding:50px; color:white;"  id="pricing">
+<div class="w3-container">
 <h2 style="font-family:cursive;"> Subject choice</h2>
-<img src="mumtahenapic/legendbanner.png"  style="height:400px; width:1100px;">
+
 </div>
 
  <div class="w3-container" style="background-color:white; color:black; ">
   <p class="w3-large">Choose a package that fits your needs.</p>
   <div class="w3-row-padding" style="margin-top:5px">
-    <div class="w3-third w3-section">
+    <div class="w3-half w3-section">
       <ul class="w3-ul w3-white w3-hover-shadow">
 	  
 	  
@@ -852,7 +847,7 @@ hieght: 400px;
         </li>
       </ul>
     </div>
-    <div class="w3-third w3-section">
+    <div class="w3-half w3-section">
       <ul class="w3-ul w3-white w3-hover-shadow">
         <li class="w3-black w3-large w3-padding-22">HSC ENGLISH 1ST PAPER</li>
       
@@ -887,7 +882,7 @@ hieght: 400px;
 	
 	
 	
-	<div class="w3-third w3-section">
+	<div class="w3-half w3-section">
       <ul class="w3-ul w3-white w3-hover-shadow">
         <li class="w3-black w3-large w3-padding-22">IELTS</li>
        
@@ -968,21 +963,24 @@ hieght: 400px;
 
 <h2>Accordion</h2>
 
-<button class="accordion">Section 1</button>
+<button class="accordion">What subject would you like to be enrolled?</button>
+<div class="panel">
+  <p>What subject would you like to be enrolled?</p>
+</div>
+
+<button class="accordion">What is the course fee?</button>
+<div class="panel">
+  <p>Please check our course section</p>
+</div>
+
+<button class="accordion">Do you offer both off-line & online-courses?</button>
 <div class="panel">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
-
-<button class="accordion">Section 2</button>
+<button class="accordion">We offer three modes of teaching</button>
 <div class="panel">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
-
-<button class="accordion">Section 3</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
 <script>
 var acc = document.getElementsByClassName("accordion");
 var i;
@@ -1180,11 +1178,11 @@ span.psw {
 
 </style>
 
-<div class="w3-container">
+<div class="w3-container  w3-teal">
 
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login here</button>
 
-<div id="id01" class="w3-container-large w3-display-bottom" style="margin:4px; border: 4px; width:50%px; height:50%px; ">
+<div id="id01" class="w3-container-large w3-display-bottom" style="color:black; margin:4px; border: 4px; width:100%px; height:100%px; ">
   
   
   <form class="modal-content animate" action="/action_page.php" method="post">
